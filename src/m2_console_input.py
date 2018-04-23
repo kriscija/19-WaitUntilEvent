@@ -2,8 +2,8 @@
 This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Joe Krisciunas.
+"""  # Done
 
 
 def main():
@@ -15,6 +15,8 @@ def main():
 
 
 def double_a_float():
+
+    x =
     """
     What comes in: Nothing.
     What goes out: Nothing (i.e. None)
