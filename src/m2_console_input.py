@@ -16,7 +16,9 @@ def main():
 
 def double_a_float():
 
-    x =
+    x =float(input('How many diamond blocks do you have in MC?'))
+
+    print(x*2)
     """
     What comes in: Nothing.
     What goes out: Nothing (i.e. None)
@@ -32,12 +34,16 @@ def double_a_float():
          -6.28
     """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # Done
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
 
 
 def print_an_integer_many_times():
+
+    x = int(input('put a random number in here, Idgaf'))
+    for k in range(x):
+        print(x*2)
     """
     What comes in: Nothing.
     What goes out: Nothing (i.e. None)
@@ -63,12 +69,18 @@ def print_an_integer_many_times():
          10
     """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # Done
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
 
 
 def print_an_integer_many_times_on_one_row():
+    s= ''
+    x = int(input('GP of AUSTRALIA???!!!'))
+    for k in range(x):
+        s = s +str(2*x)
+    print((s))
+
     """
     Same as the previous problem, but print the numbers
     on a single line with no spaces in between them.
@@ -82,7 +94,7 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # Done
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
@@ -91,6 +103,18 @@ def print_an_integer_many_times_on_one_row():
 
 
 def input_it_all():
+    x = float(input('put in a floating point'))
+    y = int(input('put in an integer'))
+    z = input('now put in a string')
+    s = ''
+    t = ''
+    for k in range(y):
+        print((x**2))
+
+    for k in range(y):
+        print((z))
+
+
     """
     What comes in: Nothing.
     What goes out: Nothing (i.e. None)
@@ -122,7 +146,7 @@ def input_it_all():
          Peace & Love.
     """
     # ------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # Done
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
 
